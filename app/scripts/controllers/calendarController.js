@@ -22,7 +22,7 @@ function (reservacionService, $scope, $rootScope, $sessionStorage, $location, $w
     $scope.addReserva = function(Reserva){       
         
       caseService.Add({
-        id: Lab.id,
+        id: Reserva.id,
         email: "ricardo.j.galdamez@gmail.com",
         descripcion: Reserva.descripcion,
         fecha_inicio:Reserva.fecha_inicio,
